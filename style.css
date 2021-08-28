@@ -99,3 +99,15 @@ hr{
 .heading-inverted{
     color: var(--primary-color);
 }
+.section{
+    padding: 2rem;
+}
+.section h3{
+    text-align: center;
+   
+
+}
+.section-off-white{
+    background: 
+    var(--gray-color);
+}
