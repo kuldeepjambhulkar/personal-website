@@ -8,7 +8,11 @@
     --black-color: #1b1b1b;
     --gray-color: #D1D5DB;
 }
-
+/* .label{
+    background: var(--primary-color);
+    color: white;
+    display: inline;
+} */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -110,4 +114,15 @@ hr{
 .section-off-white{
     background: 
     var(--gray-color);
+}
+
+.footer{
+    text-align: center;
+    background: var(--primary-color);
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
+
 }
