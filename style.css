@@ -25,6 +25,15 @@ hr{
 /* .container-fluid{
     
 } */
+
+.cta-link{
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+
 .container-center{
     max-width: 600px;
     margin: auto;
