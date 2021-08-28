@@ -5,7 +5,8 @@
 :root{
     --primary-color: #FCD34D;
     --white-color: #fff;
-    --black-color: #1b1b1b
+    --black-color: #1b1b1b;
+    --gray-color: #D1D5DB;
 }
 
 body{
@@ -81,4 +82,20 @@ hr{
 }
 .navigation ul{
     text-align: right;
+}
+
+.hero{
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+}
+.hero-img{
+    max-width: 300px;
+}
+.hero-heading{
+    margin-top: 2rem;
+    color: var(--black-color);
+}
+.heading-inverted{
+    color: var(--primary-color);
 }
