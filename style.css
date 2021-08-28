@@ -28,9 +28,10 @@ hr{
 .link{
     text-decoration: none;
     padding: .7rem 1rem;
-    font-weight: bold;
+    font-weight: 700;
     transition: .6s all;
     margin: 1rem .5rem;
+    color: var(--black-color);
 }
 .link-primary{
     border: 2px solid transparent;
@@ -59,4 +60,25 @@ hr{
 .list-inline li{
     display: inline;
     padding: 0 .3rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.3rem .5rem;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom-left-radius: 1rem;
+
+}
+.nav-pills{
+    color: var(--black-color);
+}
+.navigation .nav-brand{
+    font-size: 1.6rem;
+}
+.link-active{
+    font-weight: bolder;
+}
+.navigation ul{
+    text-align: right;
 }
