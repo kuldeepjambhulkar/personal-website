@@ -4,12 +4,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.conrainer{
-
+.container{
+    padding: 0 1rem;
 }
-.fluid-container{
+.container-fluid{
     
 }
-.center-container{
+.container-center{
+    max-width: 600px;
     margin: auto;
 }
+
+.link
