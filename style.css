@@ -1,0 +1,15 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.conrainer{
+
+}
+.fluid-container{
+    
+}
+.center-container{
+    margin: auto;
+}
